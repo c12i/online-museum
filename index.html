@@ -12,38 +12,78 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-  <div class="container">
-    <nav class="navbar navbar-light">
-      <a class="navbar-brand" href="#">BRAND</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle"
-        aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation"><span
-          class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navToggle">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CATEGORIES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONTACTS</a>
-          </li>
-        </ul>
+<body class="container-fluid">
+  <nav class="navbar navbar-light mb-5">
+    <a class="navbar-brand mx-auto" href="#">ONLINE MUSEUM</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle"
+      aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation"><span
+        class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navToggle">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CATEGORIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACTS</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="carouselControls" class="carousel slide row" data-ride="carousel">
+    <div class="carousel-inner col-md-4 mx-auto">
+      <div class="carousel-item active">
+        <div class="card mx-auto" style="width: 30rem;">
+          <!-- <img
+            src="https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            class="card-img-top" alt="..."> -->
+          <h1>Welcome Home!</h1>
+        </div>
       </div>
-    </nav>
+      <div class="carousel-item">
+        <div class="card mx-auto" style="width: 30rem;">
+          <img
+            src="https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            class="card-img-top img-fluid" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="text-white text-center">Category one</h5>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card mx-auto" style="width: 30rem;">
+          <img
+            src="https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            class="card-img-top img-fluid" alt="...">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card mx-auto" style="width: 30rem;">
+          <img
+            src="https://images.pexels.com/photos/1191710/pexels-photo-1191710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            class="card-img-top img-fluid" alt="...">
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-angle-left fa-2x"></i></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-angle-right fa-2x"></i></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-
-
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/mdb.min.js"></script>
-
+  <script src="js/script.js"></script>
 </body>
 
 </html>

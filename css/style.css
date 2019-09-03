@@ -1,3 +1,11 @@
 .navbar-light {
   box-shadow: none;
 }
+
+i {
+  color: black;
+}
+
+.carousel {
+  height: 300px;
+}
