@@ -1,5 +1,9 @@
+body{
+  font-family: 'Playfair Display', serif;
+}
+
 .navbar-light {
-<<<<<<< HEAD
+  <<<<<<< HEAD
   box-shadow: none;
 }
 
@@ -7,14 +11,28 @@ i {
   color: black;
 }
 
-.carousel {
-  height: 300px;
-=======
-    box-shadow: none;
+.card {
+  border-radius: 0;
+  >>>>>>> brian
 }
 
-.card {
-    padding: 20px 20px 20px 20px;
-    margin: 10px 10px 10px 10px;
->>>>>>> brian
+
+.card-img-overlay {
+    background-color: white;
+    opacity: 0.7;
+    display: none;
+}
+
+#assumption, #mona-lisa, #primavera, #sistine, #venus, #creation-of-adam, #judas, #judgement, #last-supper, #school-athens{
+  display: none;
+}
+
+hr.style-one {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
