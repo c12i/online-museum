@@ -1,3 +1,73 @@
+body{
+  font-family: 'Playfair Display', serif;
+}
+
 .navbar-light {
   box-shadow: none;
+}
+
+.navShadow {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+.navbar-brand {
+  color: black;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+.scrolled {
+  background-color: white;
+  transition: 1s;
+}
+.navbar-brand:hover {
+  color: black;
+}
+nav li a {
+  color: black;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+i{
+  color: black;
+}
+
+.card {
+  border-radius: 0;
+  cursor: pointer;
+  border-style: none;
+  border: none;
+}
+
+
+.card-img-overlay {
+    background-color: white;
+    opacity: 0.5;
+}
+
+#assumption, #mona-lisa, #primavera, #sistine, #venus, #creation-of-adam, #judas, #judgement, #last-supper, #school-athens, #cristo, #david, #hercules, #madonna-of-bruges, #moses, #pieta, #slaves, #st-petronius, #judith{
+  display: none;
+}
+
+
+#allegory,
+#beheading,
+#elevation,
+#aeneas,
+#ecstasy,
+#carlo,
+#graces {
+    display: none;
+}
+
+hr.style-one {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
