@@ -80,3 +80,13 @@ hr.style-one {
   background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
   background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
+
+.page-foot{
+  height: 100px;
+}
+
+.fluid{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
