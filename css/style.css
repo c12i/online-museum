@@ -3,28 +3,39 @@ body{
 }
 
 .navbar-light {
-  <<<<<<< HEAD
   box-shadow: none;
 }
 
-i {
+i{
   color: black;
 }
 
 .card {
   border-radius: 0;
-  >>>>>>> brian
+  cursor: pointer;
+  border-style: none;
+  border: none;
 }
 
 
 .card-img-overlay {
     background-color: white;
-    opacity: 0.7;
-    display: none;
+    opacity: 0.5;
 }
 
-#assumption, #mona-lisa, #primavera, #sistine, #venus, #creation-of-adam, #judas, #judgement, #last-supper, #school-athens{
+#assumption, #mona-lisa, #primavera, #sistine, #venus, #creation-of-adam, #judas, #judgement, #last-supper, #school-athens, #cristo, #david, #hercules, #madonna-of-bruges, #moses, #pieta, #slaves, #st-petronius, #judith{
   display: none;
+}
+
+
+#allegory,
+#beheading,
+#elevation,
+#aeneas,
+#ecstasy,
+#carlo,
+#graces {
+    display: none;
 }
 
 hr.style-one {
