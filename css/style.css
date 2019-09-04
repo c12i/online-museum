@@ -6,6 +6,30 @@ body{
   box-shadow: none;
 }
 
+.navShadow {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+.navbar-brand {
+  color: black;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+.scrolled {
+  background-color: white;
+  transition: 1s;
+}
+.navbar-brand:hover {
+  color: black;
+}
+nav li a {
+  color: black;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 i{
   color: black;
 }

@@ -14,22 +14,35 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light">
-    <a class="navbar-brand mx-auto" href="#">BRAND</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-    <div class="collapse navbar-collapse" id="navToggle">
-      <ul class="navbar-nav mr-auto">
+  <div class="text-center" id="brandName">
+      <a class="navbar-brand" href="#">ONLINE MUSEUM</a>
+  </div>
+  <nav class="navbar navbar-expand-lg sticky-top navShadow">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pageNav"
+      aria-controls="pageNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="pageNav">
+      <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">CATEGORIES</a>
+          <a class="nav-link" href="#">HOME
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">ABOUT US</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">CONTACTS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">COLLECTIONS</a>
+          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">World</a>
+            <a class="dropdown-item" href="#">Kenyan Art</a>
+            <a class="dropdown-item" href="#">Contemporary</a>
+          </div>
         </li>
       </ul>
     </div>
@@ -80,11 +93,14 @@
     <hr class="style-one">
 
     <h3 class="text-center">Renaissance</h3>
-    <p class="text-center">Renaissance was a cultural movement that spanned roughly from the 14th century to the 17th century. This was one of the richest period in European art. The Renaissance was a fervent period of European cultural, artistic, political and economic “rebirth” following the Middle Ages. Generally described as taking place from the 14th century to the 17th century, the Renaissance promoted the rediscovery of classical philosophy, literature and art. Some of the greatest thinkers, authors, statesmen, scientists and artists in history of mankind including Leonardo Da Vinci and Michelangelo Buonarroti, thrived during this era, while global exploration opened up new lands and cultures to European commerce. The Renaissance is credited with bridging the gap between the Middle Ages and modern-day civilization.
+    <p class="text-center">Renaissance was a cultural movement that spanned roughly from the 14th century to the 17th century. This was one of the richest period in European art. The Renaissance was a fervent period of European cultural, artistic,
+      political and economic “rebirth” following the Middle Ages. Generally described as taking place from the 14th century to the 17th century, the Renaissance promoted the rediscovery of classical philosophy, literature and art. Some of the
+      greatest thinkers, authors, statesmen, scientists and artists in history of mankind including Leonardo Da Vinci and Michelangelo Buonarroti, thrived during this era, while global exploration opened up new lands and cultures to European
+      commerce. The Renaissance is credited with bridging the gap between the Middle Ages and modern-day civilization.
 
-    <a href="https://www.history.com/topics/renaissance/renaissance">Read more.</a>
+      <a href="https://www.history.com/topics/renaissance/renaissance">Read more.</a>
 
-    Some of the most famous artistic works that were produced during the Renaissance include:.</p>
+      Some of the most famous artistic works that were produced during the Renaissance include:.</p>
   </div>
 
   <div class="container">
@@ -100,26 +116,11 @@
         <img class="card-img-top" src="./images/renaissance/paintings/monalisa/mona-lisa.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="mona-lisa">
           <h5 class="card-title">Mona lisa</h5>
-          <p class="card-text">Artist:Leornardo Da Vinci</p>
-          <p class="card-text">Year:1517</p>
-          <p>The ‘Mona Lisa’ has been acclaimed as “the best known, the most visited, the most written about, the most sung about and the most parodied work of art in the world”. Its fame rests, in particular, on the elusive smile on the woman’s face
-            which is why it is also known as “la Gioconda”, or the laughing one. For Da Vinci, the ‘Mona Lisa’ was forever a work in progress, as it was his attempt at perfection. The painting was never delivered to its commissioner; Da Vinci
-            kept it with him till the end of his life. Guinness World Records lists the ‘Mona Lisa’ as having the highest insurance value for a painting in history. It was assessed at US$100 million on December 14, 1962, which after adjusting
-            inflation, would be around US$759 million today.
-          </p>
         </div>
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal3">
         <img class="card-img-top" src="./images/renaissance/paintings/primavera/primavera.jpg" alt="Card image cap">
-        <div class="card-img-overlay" id="primavera">
-          <h5 class="card-title">Primavera</h5>
-          <p class="card-text">Artist: Sandro Botticelli</p>
-          <p class="card-text">Year: 1482</p>
-          <p>‘Primavera’ means ‘the season of spring’ and the painting is sometimes also referred to as ‘Allegory of Spring’. There have been various interpretations of the painting but it is generally agreed that at some level it is “an elaborate
-            mythological allegory of the burgeoning fertility of the world.” ‘Primavera’ is “one of the most written about and most controversial paintings in the world.” Botticelli’s fascinating use of color and multiple interpretations of the
-            work have made the painting hugely popular and it often cited as a prime example of the grace of Early Renaissance art.</p>
-        </div>
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal4">
@@ -129,7 +130,7 @@
         </div>
       </div>
 
-      <div class="card view overlay zoom">
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal5">
         <img class="card-img-top" src="./images/renaissance/paintings/the-birth-of-venus/the-birth-of-venus.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="venus">
           <h5 class="card-title">The birth of Venus</h5>
@@ -142,7 +143,7 @@
         </div>
       </div>
 
-      <div class="card view overlay zoom">
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal6">
         <img class="card-img-top" src="./images/renaissance/paintings/the-creation-of-adam/the-creation-of-adam.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="creation-of-adam">
           <h5 class="card-title">The creation of Adam</h5>
@@ -153,7 +154,7 @@
         </div>
       </div>
 
-      <div class="card view overlay zoom">
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal7">
         <img class="card-img-top" src="./images/renaissance/paintings/the-kiss-of-judas/the-kiss-of-judas.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="judas">
           <h5 class="card-title">The Kiss of Judas</h5>
@@ -165,7 +166,7 @@
         </div>
       </div>
 
-      <div class="card view overlay zoom">
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal8">
         <img class="card-img-top" src="./images/renaissance/paintings/the-last-judgement/the-last-judgement.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="judgement">
           <h5 class="card-title">The last Judgement</h5>
@@ -177,7 +178,7 @@
         </div>
       </div>
 
-      <div class="card view overlay zoom">
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal9">
         <img class="card-img-top" src="./images/renaissance/paintings/the-last-supper/the-last-supper.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="last-supper">
           <h5 class="card-title">The Last Supper</h5>
@@ -189,7 +190,7 @@
         </div>
       </div>
 
-      <div class="card view overlay zoom">
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal10">
         <img class="card-img-top" src="./images/renaissance/paintings/the-school-of-athens/the-school-of-athens.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="school-athens">
           <h5 class="card-title">The school of Athens</h5>
@@ -201,7 +202,8 @@
             no one’s identity can be verified with certainty. ‘The School of Athens’ is considered “the perfect embodiment of the classical spirit of the High Renaissance.”</p>
         </div>
       </div>
-      <div class="card view overlay zoom">
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal11">
         <img class="card-img-top" src="./images/renaissance/sculptures/cristo-della-minerva/cristo-della-minerva.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="cristo">
           <h5 class="card-title">Cristo-della-minerva</h5>
@@ -214,7 +216,8 @@
           </p>
         </div>
       </div>
-      <div class="card view overlay zoom">
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal12">
         <img class="card-img-top" src="./images/renaissance/sculptures/david/david.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="david">
           <h5 class="card-title">David</h5>
@@ -227,85 +230,53 @@
           </p>
         </div>
       </div>
-      <div class="card view overlay zoom">
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal13">
         <img class="card-img-top" src="./images/renaissance/sculptures/hercules-and-cacus/hercules-and-cacus.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="hercules">
-          <h5 class="card-title">Hercules</h5>
           <p class="card-text">Artist: Bartolomeo Bandinelli</p>
-          <p class="card-text">Subject: hercules-and-cacus</p>
-          <p>Hercules and Cacus is a white sculpture to the right of the entrance of the Palazzo Vecchio in the Piazza della Signoria, Florence, Italy. This work by the Florentine artist Baccio Bandinelli was commissioned as a pendant to David,
-            which had been commissioned by the republican counsel of Florence, under Piero Soderini, to commemorate the victory over the Medici. The colossus was originally given to Michelangelo and meant to complement the David but later
-            appropriated by the Medici family as a symbol of their renewed power after their return from exile in 1512, and again in 1530. Although descriptions of its unveiling in 1534 provided verbal and written criticisms of the marble,
-            most were ...more on Wikipedia(http://en.wikipedia.org/wiki/Hercules_and_Cacus)</p>
         </div>
       </div>
-      <div class="card view overlay zoom">
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal14">
         <img class="card-img-top" src="./images/renaissance/sculptures/madonna-of-bruges/madonna-of-bruges.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="madonna-of-bruges">
-          <h5 class="card-title">Madonna of bruges</h5>
-          <p class="card-text">Artist: Michelangelo</p>
-          <p class="card-text">Subject: Mary and Jesus Christ</p>
-          <p>The Madonna of Bruges is a marble sculpture by Michelangelo of Mary with the infant Jesus. Michelangelo's depiction of the Madonna and Child differs significantly from earlier representations of the same subject, which tended to feature
-            a pious Virgin smiling down on an infant held in her arms. Instead, Jesus stands upright, almost unsupported, only loosely restrained by Mary's left hand, and appears to be about to step away from his mother and into the world.
-            Meanwhile, Mary does not cling to her son or even look at him, but gazes down and away, as if she knows already what is to be her son's fate. It is believed the work was originally intended for an altar piece. If this is so, then
-            it wo... ...more on Wikipedia(http://en.wikipedia.org/wiki/Madonna_of_Bruges)</p>
+          <h5 class="card-title"></h5>
         </div>
       </div>
-      <div class="card view overlay zoom">
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal15">
         <img class="card-img-top" src="./images/renaissance/sculptures/moses/moses.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="moses">
-          <h5 class="card-title">Moses</h5>
-          <p class="card-text">Artist: Michelangelo</p>
-          <p class="card-text">Subject: Moses</p>
-          <p>The Moses is a sculpture by the Italian High Renaissance artist Michelangelo Buonarroti, housed in the church of San Pietro in Vincoli in Rome. Commissioned in 1505 by Pope Julius II for his tomb, it depicts the Biblical figure Moses
-            with horns on his head, based on a description in the Vulgate, the Latin translation of the Bible used at that time. ...more on Wikipedia(http://en.wikipedia.org/wiki/Moses_(Michelangelo))</p>
+          <h5 class="card-title"></h5>
         </div>
       </div>
-      <div class="card view overlay zoom">
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal16">
         <img class="card-img-top" src="./images/renaissance/sculptures/pietà/pietà.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="pieta">
-          <h5 class="card-title">Pietà</h5>
-          <p class="card-text">Artist: Michelangelo</p>
-          <p class="card-text">Subject: Lamentation of Christ, Blessed Virgin Mary</p>
-          <p>The Pietà is a world-famous work of Renaissance sculpture by Michelangelo Buonarroti, housed in St. Peter's Basilica, Vatican City. It is the first of a number of works of the same theme by the artist. The statue was commissioned for
-            the French Cardinal Jean de Bilhères, who was a representative in Rome. The sculpture, in Carrara marble, was made for the cardinal's funeral monument, but was moved to its current location, the first chapel on the right as one
-            enters the basilica, in the 18th century. It is the only piece Michelangelo ever signed. This famous work of art depicts the body of Jesus on the lap of his mother Mary after the Crucifixion. The theme is of Northern origin, popular
-            by th... ...more on Wikipedia(http://en.wikipedia.org/wiki/Piet%E0_(Michelangelo))
-          </p>
+          <h5 class="card-title"></h5>
         </div>
       </div>
-      <div class="card view overlay zoom">
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal17">
         <img class="card-img-top" src="./images/renaissance/sculptures/slaves/slaves.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="slaves">
-          <h5 class="card-title">Slaves</h5>
-          <p class="card-text">Artist:Michelangelo</p>
-          <p class="card-text">Subject :slaves</p>
-          <p>The Bearded Slave is the most finished of the Florentine Prigioni and gets his name from his thick, curly beard. The way his muscular torso twists indicates a deep knowledge of anatomy, typical of the best works of Michelangelo; his
-            legs, slightly bent and separated, are covered by a band of fabric. His right arm is raised to hold his bent head, while his left hand remains unfinished, but seems to hold the band of fabric...more on
-            wikipedia(https://en.wikipedia.org/wiki/Bearded_Slave).</p>
+          <h5 class="card-title"></h5>
         </div>
       </div>
-      <div class="card view overlay zoom">
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal18">
         <img class="card-img-top" src="./images/renaissance/sculptures/st-petronius/st-petronius.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="st-petronius">
-          <h5 class="card-">st-petronius</h5>
-          <p class="card-text">Artist: Michelangelo</p>
-          <p class="card-text">Subject: st-petronius</p>
-          <p>The statue of St. Petronius was created by Michelangelo out of marble. Its height is 64 cm. It is situated in the Basilica of San Domenico, Bologna. Its subject is Saint Petronius, bishop of Bologna. ...more on
-            Wikipedia(https://en.wikipedia.org/wiki/St._Petronius_(Michelangelo))
-          </p>
+          <h5 class="card-"></h5>
         </div>
       </div>
-      <div class="card view overlay zoom">
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal19">
         <img class="card-img-top" src="./images/renaissance/sculptures/judith-and-holofernes/judith-and-holofernes.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="judith">
           <h5 class="card-title">judith-and-holofernes</h5>
-          <p class="card-text">Artist: Donatello </p>
-          <p class="card-text">Subject:Holofernes</p>
-          <p>The bronze sculpture Judith and Holofernes, created by Donatello at the end of his career, can be seen in the Hall of Lilies, in the Palazzo Vecchio, Florence, Italy. A copy stands in one of the sculpture's original positions on the
-            Piazza della Signoria, in front of the Palazzo Vecchio. It depicts the assassination of the Assyrian general Holofernes by Judith and is remarkable for being one of the first Renaissance sculptures to be conceived in the round,
-            with its four distinct faces. The statue was commissioned by Cosimo de' Medici as a decoration for the fountain in the garden of the Palazzo Medici-Riccardi. It stood in this palace together with Donatello's David, standing in
-            the ...more on Wikipedia(http://en.wikipedia.org/wiki/Judith_and_Holofernes_(Donatello))</p>
         </div>
       </div>
 
@@ -410,112 +381,503 @@
     </div>
   </div>
 
+  <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal5label">The birth of Venus </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Sabdaro Botticelli </p>
+          <p class="card-text">Year: 1486</p>
+          <p>The ‘Birth of Venus’ depicts the classical myth of Venus rising from the sea. In the painting the goddess
+            of love, Venus, born out of a seashell, a fully mature woman, is arriving at the sea shore. Scholars have
+            proposed many interpretations of the painting with the most prominent one being that Botticelli represented
+            the Neoplatonic idea of divine love in the form of a nude Venus. Botticelli’s ‘Birth of Venus’ remains one
+            of the most treasured artworks of the Renaissance.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal6label">The creation-of-adam </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Michelangelo Buonarroti </p>
+          <p class="card-text">Year: 1512</p>
+          <p>The work done by Michelangelo on the Sistine Chapel ceiling is a cornerstone of Renaissance art and ‘The
+            Creation of Adam’ is the most famous fresco panel of the masterpiece. The popularity of the painting is
+            second only to ‘Mona Lisa’; and along with ‘The Last Supper’, it is the most replicated religious painting
+            of all time. The image of the near-touching hands of God and Adam has become iconic of humanity and has been
+            imitated and parodied innumerable times.
+            ​
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal7label">The kiss of judas </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Giotto di Bondone </p>
+          <p class="card-text">Year: 1306</p>
+          <p>
+            Many critics consider Giotto as the first genius of modern painting and some claim that no artist has
+            surpassed him with only a handful coming close. His fresco cycle on the Scrovegni Chapel is one of the most
+            important masterpieces of Western art and ‘The Kiss of Judas’ is the most famous painting of the cycle. The
+            painting captures the moment of betrayal when Judas identifies Jesus to the soldiers by kissing him. Giotto
+            masterfully captures the drama and confusion of the arrest of Christ as well as the contrast of expressions
+            of Jesus and Judas as they look face to face.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal8label">The last judgement </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Michelangelo </p>
+          <p class="card-text">Year: 1541</p>
+          <p>
+            The Last Judgement is one of the most influential works in fresco in the history of Western art. Painted on
+            the altar wall of the Sistine Chapel in Vatican City, it depicts the Second Coming of Christ (a future
+            return of Jesus to earth) and the final and eternal judgment by God of all humanity. Jesus is shown in the
+            center of the painting and is surrounded by prominent saints; while the Resurrection of the Dead and the
+            Descent of the Damned into Hell is shown in the zone below.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal9label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal9label">The last supper </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Leornardo Da Vinci </p>
+          <p class="card-text">Year: 1498</p>
+          <p>
+            In ‘The Last Supper’, Leonardo masterfully depicts the bewilderment and confusion that occurs among the
+            disciples of Jesus when he announces that one of them would betray him. Leonardo’s detailed knowledge of
+            anatomy, light, botany and geology; his interest in how humans register emotion in expression and gesture;
+            and his subtle gradation of tone; all come together to make this painting among the most revered and famous
+            works of all time.
+            ​
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal10label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal10label">The School of Athens </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Rapahael </p>
+          <p class="card-text">Year: 1511</p>
+          <p>
+            Raphael’s masterpiece, ‘The School of Athens’, is one of the four main frescoes on the walls of the Stanze
+            di Raffaello, in the Apostolic Palace in the Vatican. The four paintings epitomize Philosophy, Poetry,
+            Theology, and Law; with ‘The School of Athens’ representing Philosophy. Critics have suggested that every
+            great Greek philosopher can be found among the 21 painted in the painting. However, apart from Plato and
+            Aristotle, who are placed in the center of the scene, no one’s identity can be verified with certainty. ‘The
+            School of Athens’ is considered “the perfect embodiment of the classical spirit of the High Renaissance.”
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal11label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal11label">Cristo-della-minerva </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Michelangelo </p>
+          <p class="card-text">Subject: Jesus Christ</p>
+          <p>
+            The Cristo della Minerva, also known as Christ the Redeemer, Christ Carrying the Cross or the Risen Christ,
+            is a marble sculpture by the Italian High Renaissance master Michelangelo Buonarroti, finished in 1521. It
+            is in the church of Santa Maria sopra Minerva in Rome, to the left of the main altar. The work was
+            commissioned in June 1514, by the Roman patrician Metello Vari, who stipulated only that the nude standing
+            figure would have the Cross in his arms, but left the composition entirely to Michelangelo. Michelangelo was
+            working on a first version of this statue in his shop in Macello dei Corvi around 1515, but abandoned it in
+            roughed-out condition when he discovered a black vein in the. <a href="http://en.wikipedia.org/wiki/Cristo_della_Minerva">Read more</a>
+            ​
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="modal12label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal11label">David </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Michelangelo </p>
+          <p class="card-text">Subject: David</p>
+          <p>
+            David is a masterpiece of Renaissance sculpture created between 1501 and 1504, by Italian sculptor, painter,
+            architect, poet Michelangelo. It is a 4.34-metre, 5.17-metre with the base marble statue of a standing male
+            nude. The statue represents the Biblical hero David, a favoured subject in the art of Florence. Originally
+            commissioned as one of a series of statues of prophets to be positioned along the roofline of the east end
+            of Florence Cathedral, the statue was placed instead in a public square, outside the Palazzo della Signoria,
+            the seat of civic government in Florence, where it was unveiled on 8 September 1504. Because of the nature
+            of the hero it represented, the statue soon came to .<a href="http://en.wikipedia.org/wiki/David_(Michelangelo)">Read More</a>"
+            ​
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal13" tabindex="-1" role="dialog" aria-labelledby="modal13label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal13label">Hercules</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Subject: Hercules and Cacus</p>
+          <p>Hercules and Cacus is a white sculpture to the right of the entrance of the Palazzo Vecchio in the Piazza della Signoria, Florence, Italy. This work by the Florentine artist Baccio Bandinelli was commissioned as a pendant to David,
+            which had been commissioned by the republican counsel of Florence, under Piero Soderini, to commemorate the victory over the Medici. The colossus was originally given to Michelangelo and meant to complement the David but later
+            appropriated by the Medici family as a symbol of their renewed power after their return from exile in 1512, and again in 1530. Although descriptions of its unveiling in 1534 provided verbal and written criticisms of the marble,
+            most were ...more on <a href="http://en.wikipedia.org/wiki/Hercules_and_Cacus">Wikipedia</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal14" tabindex="-1" role="dialog" aria-labelledby="modal14label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal14label">Madonna of Bruges</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Michelangelo</p>
+          <p class="card-text">Subject: Mary and Jesus Christ</p>
+          <p>The Madonna of Bruges is a marble sculpture by Michelangelo of Mary with the infant Jesus. Michelangelo's depiction of the Madonna and Child differs significantly from earlier representations of the same subject, which tended to feature
+            a pious Virgin smiling down on an infant held in her arms. Instead, Jesus stands upright, almost unsupported, only loosely restrained by Mary's left hand, and appears to be about to step away from his mother and into the world.
+            Meanwhile, Mary does not cling to her son or even look at him, but gazes down and away, as if she knows already what is to be her son's fate. It is believed the work was originally intended for an altar piece. If this is so, then
+            it wo... ...more on <a href="http://en.wikipedia.org/wiki/Madonna_of_Bruges">Wikipedia</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal15" tabindex="-1" role="dialog" aria-labelledby="modal15label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal15label">Moses</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Michelangelo</p>
+          <p class="card-text">Subject: Moses</p>
+          <p>The Moses is a sculpture by the Italian High Renaissance artist Michelangelo Buonarroti, housed in the church of San Pietro in Vincoli in Rome. Commissioned in 1505 by Pope Julius II for his tomb, it depicts the Biblical figure Moses
+            with horns on his head, based on a description in the Vulgate, the Latin translation of the Bible used at that time. ...more on Wikipedia(http://en.wikipedia.org/wiki/Moses_(Michelangelo))</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal16" tabindex="-1" role="dialog" aria-labelledby="modal16label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal16label">Pietà</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Michelangelo</p>
+          <p class="card-text">Subject: Lamentation of Christ, Blessed Virgin Mary</p>
+          <p>The Pietà is a world-famous work of Renaissance sculpture by Michelangelo Buonarroti, housed in St. Peter's Basilica, Vatican City. It is the first of a number of works of the same theme by the artist. The statue was commissioned for
+            the French Cardinal Jean de Bilhères, who was a representative in Rome. The sculpture, in Carrara marble, was made for the cardinal's funeral monument, but was moved to its current location, the first chapel on the right as one
+            enters the basilica, in the 18th century. It is the only piece Michelangelo ever signed. This famous work of art depicts the body of Jesus on the lap of his mother Mary after the Crucifixion. The theme is of Northern origin, popular
+            by th... ...more on <a href="http://en.wikipedia.org/wiki/Piet%E0_(Michelangelo)">Wikipedia</a>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal17" tabindex="-1" role="dialog" aria-labelledby="modal17label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal17label">Slaves</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist:Michelangelo</p>
+          <p class="card-text">Subject :slaves</p>
+          <p>The Bearded Slave is the most finished of the Florentine Prigioni and gets his name from his thick, curly beard. The way his muscular torso twists indicates a deep knowledge of anatomy, typical of the best works of Michelangelo; his
+            legs, slightly bent and separated, are covered by a band of fabric. His right arm is raised to hold his bent head, while his left hand remains unfinished, but seems to hold the band of fabric...more on
+            <a href="https://en.wikipedia.org/wiki/Bearded_Slave">wikipedia</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal18" tabindex="-1" role="dialog" aria-labelledby="modal18label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal18label">St. Petronius</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Michelangelo</p>
+          <p class="card-text">Subject: st-petronius</p>
+          <p>The statue of St. Petronius was created by Michelangelo out of marble. Its height is 64 cm. It is situated in the Basilica of San Domenico, Bologna. Its subject is Saint Petronius, bishop of Bologna. ...more on
+            <a href="https://en.wikipedia.org/wiki/St._Petronius_(Michelangelo)">Wikipedia</a>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal19" tabindex="-1" role="dialog" aria-labelledby="modal19label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal19label">Judith and Holofernes</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Donatello </p>
+          <p class="card-text">Subject:Holofernes</p>
+          <p>The bronze sculpture Judith and Holofernes, created by Donatello at the end of his career, can be seen in the Hall of Lilies, in the Palazzo Vecchio, Florence, Italy. A copy stands in one of the sculpture's original positions on the
+            Piazza della Signoria, in front of the Palazzo Vecchio. It depicts the assassination of the Assyrian general Holofernes by Judith and is remarkable for being one of the first Renaissance sculptures to be conceived in the round,
+            with its four distinct faces. The statue was commissioned by Cosimo de' Medici as a decoration for the fountain in the garden of the Palazzo Medici-Riccardi. It stood in this palace together with Donatello's David, standing in
+            the ...more on <a href="http://en.wikipedia.org/wiki/Judith_and_Holofernes_">Wikipedia</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <br><br>
   <div class="container">
     <h3 class="text-center">Baroque</h3>
     <p class="text-center">Baroque art emerged in Rome, the artistic capital of Europe in the 17th century and spread to other European countries where it merged with local traditions and cultures.
-    Baroque means irregularly-shaped pearl, derived from barocco in Portuguese, first used during the mid-1700s.
-    Baroque art does not have any relation to pearls but the word was used as an epithet for a style that did not meet the great artistic standards of the preceding Renaissance era. Regardless of its origin, it carried connotations of “bizarre” and “absurd” when used by its critics who dismissed it as a decadent successor to the revered Renaissance movement. Till the end of the 19th century and occasionally in the present time, some people use this word in its original sense as an insult towards anything they find grotesque or abnormal.
-    The Baroque Style also resulted in some majestic landmarks in modern Europe architecture...<a href="https://www.identifythisart.com/art-movements-styles/pre-modern-art/baroque-art-movement/" target="_blank">read more</a>
+      Baroque means irregularly-shaped pearl, derived from barocco in Portuguese, first used during the mid-1700s.
+      Baroque art does not have any relation to pearls but the word was used as an epithet for a style that did not meet the great artistic standards of the preceding Renaissance era. Regardless of its origin, it carried connotations of “bizarre” and
+      “absurd” when used by its critics who dismissed it as a decadent successor to the revered Renaissance movement. Till the end of the 19th century and occasionally in the present time, some people use this word in its original sense as an insult
+      towards anything they find grotesque or abnormal.
+      The Baroque Style also resulted in some majestic landmarks in modern Europe architecture...<a href="https://www.identifythisart.com/art-movements-styles/pre-modern-art/baroque-art-movement/" target="_blank">read more</a>
     </p>
   </div>
 
   <div class="sculpture container">
-  <div class="card-columns">
-    <div class="card view overlay zoom">
-      <img class="card-img-top" src="./images/baroque/paintings/allegory-of-war/allegory-of-war.jpg" alt="Card image cap">
-      <div class="card-img-overlay" id="allegory">
-        <h5 class="card-title">Allegory-of-war</h5>
-        <p class="card-text">Artist: Jan Brueghel the Younger</p>
-        <p class="card-text">Genres: Allegory, animal painting </p>
-        <p>This piece of work was painted in the 1640s nearing the end of Europe’s Thirty Years’ War. This was a widespread war that effected areas all throughout Europe with mass destruction and death of over eight million people. Breughel
-          is best known for his landscapes with allegorical content heavily influenced by the Thirty Years’ War (J. Paul Getty Museum).
-        </p>
+    <div class="card-columns">
+      <div class="card view overlay zoom">
+        <img class="card-img-top" src="./images/baroque/paintings/allegory-of-war/allegory-of-war.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="allegory">
+          <h5 class="card-title">Allegory-of-war</h5>
+          <p class="card-text">Artist: Jan Brueghel the Younger</p>
+          <p class="card-text">Genres: Allegory, animal painting </p>
+          <p>This piece of work was painted in the 1640s nearing the end of Europe’s Thirty Years’ War. This was a widespread war that effected areas all throughout Europe with mass destruction and death of over eight million people. Breughel
+            is best known for his landscapes with allegorical content heavily influenced by the Thirty Years’ War (J. Paul Getty Museum).
+          </p>
+        </div>
       </div>
-    </div>
-    ​
-    <div class="card view overlay zoom">
-      <img class="card-img-top" src="./images/baroque/paintings/judith-beheading-holofernes/judith-beheading-holofernes.jpg" alt="Card image cap">
-      <div class="card-img-overlay" id="beheading">
-        <h5 class="card-title">judith-beheading-holofernes</h5>
-        <p class="card-text">Artist: Artmesia Gentileschi</p>
-        <p class="card-text">Genres: History painting</p>
-        <p>Judith Beheading Holofernes (1614-1620) is an oil-on-canvas painting, based on a Biblical story, by Italian painter Artemisia Gentileschi. It is part of the collection of the Uffizi Gallery in Florence.
-        </p>
+      ​
+      <div class="card view overlay zoom">
+        <img class="card-img-top" src="./images/baroque/paintings/judith-beheading-holofernes/judith-beheading-holofernes.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="beheading">
+          <h5 class="card-title">judith-beheading-holofernes</h5>
+          <p class="card-text">Artist: Artmesia Gentileschi</p>
+          <p class="card-text">Genres: History painting</p>
+          <p>Judith Beheading Holofernes (1614-1620) is an oil-on-canvas painting, based on a Biblical story, by Italian painter Artemisia Gentileschi. It is part of the collection of the Uffizi Gallery in Florence.
+          </p>
+        </div>
       </div>
-    </div>
-    ​
-    <div class="card view overlay zoom">
-      <img class="card-img-top" src="./images/baroque/paintings/the-elevation-of-the-cross/the-elevation-of-the-cross.jpg" alt="Card image cap">
-      <div class="card-img-overlay" id="elevation">
-        <h5 class="card-title">The elevation of the cross</h5>
-        <p class="card-text">Artist: Petere Paul Ruebens </p>
-        <p class="card-text">Genres: The elevation of the cross painting</p>
-        <p>The Elevation of the Cross (also called The Raising of the Cross) is the name of two paintings, a very large triptych in oil on panel and a much smaller oil on paper painting. Both pieces were painted by the Flemish artist Peter
-          Paul Rubens in Antwerp, Belgium, the original in 1610 and the latter in 1638. Jesus Christ and the elevation of his cross are the focal points for this artwork, with features of the story overflowing from the middle panel onto
-          the wings on both sides.)</p>
+      ​
+      <div class="card view overlay zoom">
+        <img class="card-img-top" src="./images/baroque/paintings/the-elevation-of-the-cross/the-elevation-of-the-cross.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="elevation">
+          <h5 class="card-title">The elevation of the cross</h5>
+          <p class="card-text">Artist: Petere Paul Ruebens </p>
+          <p class="card-text">Genres: The elevation of the cross painting</p>
+          <p>The Elevation of the Cross (also called The Raising of the Cross) is the name of two paintings, a very large triptych in oil on panel and a much smaller oil on paper painting. Both pieces were painted by the Flemish artist Peter
+            Paul Rubens in Antwerp, Belgium, the original in 1610 and the latter in 1638. Jesus Christ and the elevation of his cross are the focal points for this artwork, with features of the story overflowing from the middle panel onto
+            the wings on both sides.)</p>
+        </div>
       </div>
-    </div>
-    ​
-    <div class="card view overlay zoom">
-      <img class="card-img-top" src="./images/baroque/sculptures/aeneas-anchises-and-ascanius/aeneas-anchises-and-ascanius.jpg" alt="Card image cap">
-      <div class="card-img-overlay" id="aeneas">
-        <h5 class="card-title">Aeneas-anchises-and-ascanius</h5>
-        <p class="card-text">Artist: Gian Lorenzo Bernini </p>
-        <p class="card-text">Subject: Aeneas,Ascanius</p>
-        <p>Aeneas, Anchises, and Ascanius is a sculpture by the Italian artist Gian Lorenzo Bernini created circa 1618-19. Housed in the Galleria Borghese in Rome, the sculpture depicts a scene from the Aeneid, where the hero Aeneas leads
-          his family from burning Troy <a href="http://en.wikipedia.org/wiki/Aeneas,_Anchises,_and_Ascanius)">Read more</a></p>
+      ​
+      <div class="card view overlay zoom">
+        <img class="card-img-top" src="./images/baroque/sculptures/aeneas-anchises-and-ascanius/aeneas-anchises-and-ascanius.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="aeneas">
+          <h5 class="card-title">Aeneas-anchises-and-ascanius</h5>
+          <p class="card-text">Artist: Gian Lorenzo Bernini </p>
+          <p class="card-text">Subject: Aeneas,Ascanius</p>
+          <p>Aeneas, Anchises, and Ascanius is a sculpture by the Italian artist Gian Lorenzo Bernini created circa 1618-19. Housed in the Galleria Borghese in Rome, the sculpture depicts a scene from the Aeneid, where the hero Aeneas leads
+            his family from burning Troy <a href="http://en.wikipedia.org/wiki/Aeneas,_Anchises,_and_Ascanius)">Read more</a></p>
+        </div>
       </div>
-    </div>
-    ​
-    <div class="card view overlay zoom">
-      <img class="card-img-top" src="./images/baroque/sculptures/ecstasy-of-saint-teresa/ecstasy-of-saint-teresa.jpeg" alt="Card image cap">
-      <div class="card-img-overlay" id="ecstasy">
-        <h5 class="card-title">Ecstasy-of-saint-teresa</h5>
-        <p class="card-text">Artist: Gian Lorenzo Bernini</p>
-        <p class="card-text">Subject: Teresa of Avila</p>
-        <p>The Ecstasy of Saint Teresa is the central sculptural group in white marble set in an elevated aedicule in the Cornaro Chapel, Santa Maria della Vittoria, Rome. It was designed and completed by Gian Lorenzo Bernini, the leading
-          sculptor of his day, who also designed the setting of the Chapel in marble, stucco and paint. It is generally considered to be one of the sculptural masterpieces of the High Roman Baroque. It pictures Teresa of Ávila.
-        </p>
+      ​
+      <div class="card view overlay zoom">
+        <img class="card-img-top" src="./images/baroque/sculptures/ecstasy-of-saint-teresa/ecstasy-of-saint-teresa.jpeg" alt="Card image cap">
+        <div class="card-img-overlay" id="ecstasy">
+          <h5 class="card-title">Ecstasy-of-saint-teresa</h5>
+          <p class="card-text">Artist: Gian Lorenzo Bernini</p>
+          <p class="card-text">Subject: Teresa of Avila</p>
+          <p>The Ecstasy of Saint Teresa is the central sculptural group in white marble set in an elevated aedicule in the Cornaro Chapel, Santa Maria della Vittoria, Rome. It was designed and completed by Gian Lorenzo Bernini, the leading
+            sculptor of his day, who also designed the setting of the Chapel in marble, stucco and paint. It is generally considered to be one of the sculptural masterpieces of the High Roman Baroque. It pictures Teresa of Ávila.
+          </p>
+        </div>
       </div>
-    </div>
-    ​
-    <div class="card view overlay zoom">
-      <img class="card-img-top" src="./images/baroque/sculptures/san-carlo-alle-quattro-fontane/san-carlo-alle-quattro-fontane.jpg" alt="Card image cap">
-      <div class="card-img-overlay" id="carlo">
-        <h5 class="card-title">San-carlor-alle-quattro-fontane</h5>
-        <p class="card-text">Artist:</p>
-        <p class="card-text">Subject :slaves</p>
-        <p>The church of San Carlo alle Quattro Fontane (Saint Charles at the Four Fountains), also called San Carlino, is a Roman Catholic church in Rome, Italy. The church was designed by the architect Francesco Borromini and it was his
-          first independent commission. It is an iconic masterpiece of Baroque architecture, built as part of a complex of monastic buildings on the Quirinal Hill for the Spanish Trinitarians, an order dedicated to the freeing of Christian
-          slaves.
-        </p>
+      ​
+      <div class="card view overlay zoom">
+        <img class="card-img-top" src="./images/baroque/sculptures/san-carlo-alle-quattro-fontane/san-carlo-alle-quattro-fontane.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="carlo">
+          <h5 class="card-title">San-carlor-alle-quattro-fontane</h5>
+          <p class="card-text">Artist:</p>
+          <p class="card-text">Subject :slaves</p>
+          <p>The church of San Carlo alle Quattro Fontane (Saint Charles at the Four Fountains), also called San Carlino, is a Roman Catholic church in Rome, Italy. The church was designed by the architect Francesco Borromini and it was his
+            first independent commission. It is an iconic masterpiece of Baroque architecture, built as part of a complex of monastic buildings on the Quirinal Hill for the Spanish Trinitarians, an order dedicated to the freeing of Christian
+            slaves.
+          </p>
+        </div>
       </div>
+
+      <div class="card view overlay zoom">
+        <img class="card-img-top" src="./images/baroque/sculptures/the-three-graces/the-three-graces.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="graces">
+          <h5 class="card-">The three graces</h5>
+          <p class="card-text">Artist:Antonio Canova</p>
+          <p class="card-text">Subject: Charites </p>
+          <p>Antonio Canova’s statue The Three Graces is a Neoclassical sculpture, in marble, of the mythological three charites, daughters of Zeus – identified on some engravings of the statue as, from left to right, Euphrosyne, Aglaea
+            and Thalia - who were said to represent beauty, charm and joy. The Graces presided over banquets and gatherings primarily to entertain and delight the guests of the gods. As such they have always proved to be attractive
+            figures for historical artists including Sandro Botticelli and Bertel Thorvaldsen. A version of the sculpture is to be found in the Hermitage Museum); another is owned jointly and exhibited in turn by the Victoria and Albert
+            Museum and the National Galleri.
+          </p>
+        </div>
+      </div>
+
     </div>
 
-    <div class="card view overlay zoom">
-      <img class="card-img-top" src="./images/baroque/sculptures/the-three-graces/the-three-graces.jpg" alt="Card image cap">
-      <div class="card-img-overlay" id="graces">
-        <h5 class="card-">The three graces</h5>
-        <p class="card-text">Artist:Antonio Canova</p>
-        <p class="card-text">Subject: Charites </p>
-        <p>Antonio Canova’s statue The Three Graces is a Neoclassical sculpture, in marble, of the mythological three charites, daughters of Zeus – identified on some engravings of the statue as, from left to right, Euphrosyne, Aglaea
-          and Thalia - who were said to represent beauty, charm and joy. The Graces presided over banquets and gatherings primarily to entertain and delight the guests of the gods. As such they have always proved to be attractive
-          figures for historical artists including Sandro Botticelli and Bertel Thorvaldsen. A version of the sculpture is to be found in the Hermitage Museum); another is owned jointly and exhibited in turn by the Victoria and Albert
-          Museum and the National Galleri.
-        </p>
-      </div>
-    </div>
-
-  </div>
 
 
-
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
