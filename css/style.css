@@ -1,5 +1,10 @@
 body{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Manjari', sans-serif;
+}
+
+#logo{
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
 }
 
 .navbar-light {
@@ -12,19 +17,23 @@ body{
 .navbar-brand {
   color: black;
   padding-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 1px;
 }
+
 .scrolled {
   background-color: white;
   transition: 1s;
 }
+
 .navbar-brand:hover {
   color: black;
 }
+
 nav li a {
   color: black;
   text-decoration: none;
 }
+
 nav li a:hover {
   color: black;
   text-decoration: none;
