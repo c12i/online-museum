@@ -12,15 +12,16 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <div class="text-center" id="brandName">
-      <a class="navbar-brand" href="#" id="logo">
-        THE ONLINE MUSEUM
-      </a>
+    <a class="navbar-brand" href="#" id="logo">
+      THE ONLINE MUSEUM
+      <hr class="style-one">
+    </a>
   </div>
   <nav class="navbar navbar-expand-lg sticky-top navShadow">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pageNav"
-      aria-controls="pageNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pageNav" aria-controls="pageNav" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="pageNav">
@@ -37,8 +38,7 @@
           <a class="nav-link" href="#">CONTACTS</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">COLLECTIONS</a>
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COLLECTIONS</a>
           <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">WESTERN ART</a>
             <a class="dropdown-item" href="#">KENYAN ART</a>
@@ -134,9 +134,7 @@
   <div class="container">
     <div class="card-columns">
       <div class="card view overlay zoom" id="assumption-show" data-toggle="modal" data-target="#modal1">
-        <img class="card-img-top"
-          src="./images/renaissance/paintings/assumption-of-the-virgin/assumption-of-the-virgin.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/paintings/assumption-of-the-virgin/assumption-of-the-virgin.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="assumption">
 
         </div>
@@ -154,8 +152,7 @@
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal4">
-        <img class="card-img-top" src="./images/renaissance/paintings/sistine-madonna/sistine-madonna.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/paintings/sistine-madonna/sistine-madonna.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="sistine">
           <h5 class="card-title">Sistine Madonna</h5>
         </div>
@@ -360,6 +357,9 @@
           </button>
         </div>
         <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/2MzPOrcsWB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <p class="card-text">Artist: Titian </p>
           <p class="card-text">Year: 1518</p>
           <p>‘Assumption of the Virgin’, located on the high altar in the Basilica di Santa Maria Gloriosa dei Frari,
@@ -478,6 +478,9 @@
           </button>
         </div>
         <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/Ng0qn-rsdm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <p class="card-text">Artist: Sabdaro Botticelli </p>
           <p class="card-text">Year: 1486</p>
           <p>The ‘Birth of Venus’ depicts the classical myth of Venus rising from the sea. In the painting the goddess
@@ -498,12 +501,15 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modal6label">The creation-of-adam </h5>
+          <h5 class="modal-title" id="modal6label">The creation of Adam </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/QVK04ORmKrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <p class="card-text">Artist: Michelangelo Buonarroti </p>
           <p class="card-text">Year: 1512</p>
           <p>The work done by Michelangelo on the Sistine Chapel ceiling is a cornerstone of Renaissance art and ‘The
@@ -636,7 +642,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modal11label">Cristo-della-minerva </h5>
+          <h5 class="modal-title" id="modal11label">Cristo Della Minerva </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -771,6 +777,9 @@
           </button>
         </div>
         <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/ihlqGCfD5_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <p class="card-text">Artist: Michelangelo</p>
           <p class="card-text">Subject: Lamentation of Christ, Blessed Virgin Mary</p>
           <p>The Pietà is a world-famous work of Renaissance sculpture by Michelangelo Buonarroti, housed in St. Peter's Basilica, Vatican City. It is the first of a number of works of the same theme by the artist. The statue was commissioned for
@@ -871,68 +880,185 @@
 
   <div class="sculpture container">
     <div class="card-columns">
-      <div class="card view overlay zoom">
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal20">
         <img class="card-img-top" src="./images/baroque/paintings/allegory-of-war/allegory-of-war.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="allegory">
-          <h5 class="card-title">Allegory-of-war</h5>
+          <h5 class="card-title">Allegory of war</h5>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal21">
+        <img class="card-img-top" src="./images/baroque/paintings/judith-beheading-holofernes/judith-beheading-holofernes.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="beheading">
+          <h5 class="card-title"></h5>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal22">
+        <img class="card-img-top" src="./images/baroque/paintings/the-elevation-of-the-cross/the-elevation-of-the-cross.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="elevation">
+          <h5 class="card-title"></h5>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal23">
+        <img class="card-img-top" src="./images/baroque/sculptures/aeneas-anchises-and-ascanius/aeneas-anchises-and-ascanius.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="aeneas">
+          <h5 class="card-title"></h5>
+
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal24">
+        <img class="card-img-top" src="./images/baroque/sculptures/ecstasy-of-saint-teresa/ecstasy-of-saint-teresa.jpeg" alt="Card image cap">
+        <div class="card-img-overlay" id="ecstasy">
+          <h5 class="card-title"></h5>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal25">
+        <img class="card-img-top" src="./images/baroque/sculptures/san-carlo-alle-quattro-fontane/san-carlo-alle-quattro-fontane.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="carlo">
+          <h5 class="card-title"></h5>
+        </div>
+      </div>
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal26">
+        <img class="card-img-top" src="./images/baroque/sculptures/the-three-graces/the-three-graces.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="graces">
+          <h5 class="card-"></h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal20" tabindex="-1" role="dialog" aria-labelledby="modal20label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal20label">Allegory of war</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
           <p class="card-text">Artist: Jan Brueghel the Younger</p>
           <p class="card-text">Genres: Allegory, animal painting </p>
           <p>This piece of work was painted in the 1640s nearing the end of Europe’s Thirty Years’ War. This was a widespread war that effected areas all throughout Europe with mass destruction and death of over eight million people. Breughel
             is best known for his landscapes with allegorical content heavily influenced by the Thirty Years’ War (J. Paul Getty Museum).
           </p>
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
-      ​
-      <div class="card view overlay zoom">
-        <img class="card-img-top" src="./images/baroque/paintings/judith-beheading-holofernes/judith-beheading-holofernes.jpg" alt="Card image cap">
-        <div class="card-img-overlay" id="beheading">
-          <h5 class="card-title">judith-beheading-holofernes</h5>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal21" tabindex="-1" role="dialog" aria-labelledby="modal21label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal21label">Judith beheading Holofernes</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/l9XQKyG7mv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <p class="card-text">Artist: Artmesia Gentileschi</p>
           <p class="card-text">Genres: History painting</p>
           <p>Judith Beheading Holofernes (1614-1620) is an oil-on-canvas painting, based on a Biblical story, by Italian painter Artemisia Gentileschi. It is part of the collection of the Uffizi Gallery in Florence.
           </p>
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
-      ​
-      <div class="card view overlay zoom">
-        <img class="card-img-top" src="./images/baroque/paintings/the-elevation-of-the-cross/the-elevation-of-the-cross.jpg" alt="Card image cap">
-        <div class="card-img-overlay" id="elevation">
-          <h5 class="card-title">The elevation of the cross</h5>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal22" tabindex="-1" role="dialog" aria-labelledby="modal22label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal22label">The elevation of the cross</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
           <p class="card-text">Artist: Petere Paul Ruebens </p>
           <p class="card-text">Genres: The elevation of the cross painting</p>
           <p>The Elevation of the Cross (also called The Raising of the Cross) is the name of two paintings, a very large triptych in oil on panel and a much smaller oil on paper painting. Both pieces were painted by the Flemish artist Peter
             Paul Rubens in Antwerp, Belgium, the original in 1610 and the latter in 1638. Jesus Christ and the elevation of his cross are the focal points for this artwork, with features of the story overflowing from the middle panel onto
             the wings on both sides.)</p>
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
-      ​
-      <div class="card view overlay zoom">
-        <img class="card-img-top" src="./images/baroque/sculptures/aeneas-anchises-and-ascanius/aeneas-anchises-and-ascanius.jpg" alt="Card image cap">
-        <div class="card-img-overlay" id="aeneas">
-          <h5 class="card-title">Aeneas-anchises-and-ascanius</h5>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal23" tabindex="-1" role="dialog" aria-labelledby="modal23label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal23label">Aeneas Anchises and Ascanius</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
           <p class="card-text">Artist: Gian Lorenzo Bernini </p>
           <p class="card-text">Subject: Aeneas,Ascanius</p>
           <p>Aeneas, Anchises, and Ascanius is a sculpture by the Italian artist Gian Lorenzo Bernini created circa 1618-19. Housed in the Galleria Borghese in Rome, the sculpture depicts a scene from the Aeneid, where the hero Aeneas leads
             his family from burning Troy <a href="http://en.wikipedia.org/wiki/Aeneas,_Anchises,_and_Ascanius)">Read more</a></p>
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
-      ​
-      <div class="card view overlay zoom">
-        <img class="card-img-top" src="./images/baroque/sculptures/ecstasy-of-saint-teresa/ecstasy-of-saint-teresa.jpeg" alt="Card image cap">
-        <div class="card-img-overlay" id="ecstasy">
-          <h5 class="card-title">Ecstasy-of-saint-teresa</h5>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal24" tabindex="-1" role="dialog" aria-labelledby="modal24label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal24label">Ecstasy of Saint Teresa</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
           <p class="card-text">Artist: Gian Lorenzo Bernini</p>
           <p class="card-text">Subject: Teresa of Avila</p>
           <p>The Ecstasy of Saint Teresa is the central sculptural group in white marble set in an elevated aedicule in the Cornaro Chapel, Santa Maria della Vittoria, Rome. It was designed and completed by Gian Lorenzo Bernini, the leading
             sculptor of his day, who also designed the setting of the Chapel in marble, stucco and paint. It is generally considered to be one of the sculptural masterpieces of the High Roman Baroque. It pictures Teresa of Ávila.
           </p>
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
-      ​
-      <div class="card view overlay zoom">
-        <img class="card-img-top" src="./images/baroque/sculptures/san-carlo-alle-quattro-fontane/san-carlo-alle-quattro-fontane.jpg" alt="Card image cap">
-        <div class="card-img-overlay" id="carlo">
-          <h5 class="card-title">San-carlor-alle-quattro-fontane</h5>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal25" tabindex="-1" role="dialog" aria-labelledby="modal25label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal25label">San Carlor Alle Quattro Fontane</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
           <p class="card-text">Artist:</p>
           <p class="card-text">Subject :slaves</p>
           <p>The church of San Carlo alle Quattro Fontane (Saint Charles at the Four Fountains), also called San Carlino, is a Roman Catholic church in Rome, Italy. The church was designed by the architect Francesco Borromini and it was his
@@ -940,12 +1066,26 @@
             slaves.
           </p>
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
+    </div>
+  </div>
 
-      <div class="card view overlay zoom">
-        <img class="card-img-top" src="./images/baroque/sculptures/the-three-graces/the-three-graces.jpg" alt="Card image cap">
-        <div class="card-img-overlay" id="graces">
-          <h5 class="card-">The three graces</h5>
+  <div class="modal fade" id="modal26" tabindex="-1" role="dialog" aria-labelledby="modal26label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal26label">The three graces</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/e3eEbi7yaEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <p class="card-text">Artist:Antonio Canova</p>
           <p class="card-text">Subject: Charites </p>
           <p>Antonio Canova’s statue The Three Graces is a Neoclassical sculpture, in marble, of the mythological three charites, daughters of Zeus – identified on some engravings of the statue as, from left to right, Euphrosyne, Aglaea
@@ -954,23 +1094,801 @@
             Museum and the National Galleri.
           </p>
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <hr class="style-one">
+    <h2 class="text-center">KENYAN ART</h2>
+    <hr class="style-one">
+    <p class="text-center">The depth and wealth of Kenya’s art history is immense and unique. A significant collection
+      of art is archived in public and private institutions.
+      ​
+      Sadly, the Kenyan public does not get to access these collections and the stories that define their history;
+      stories of how humans have used creative expression to record their rich cultural heritage and inform their
+      posterity.
+      ​
+      In this series we shall attempt to showcase the various art collections by The Late Joseph Zuzarte Murumbi,
+      Kenya’s second Vice-President and art collector, and is known to have pushed for a national art gallery of Kenya,
+      a dream he never saw come alive by the time of his death in 1990..
+    </p>
+  </div>
+
+  <div class="sculpture container">
+    <div class="card-columns">
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal27">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/asiru-olatunde-osogbo.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="allegory">
+          <h5 class="card-title">Asiru-olatunde-osogbo</h5>
+          <p>Asiru Olatunde Osogbo (Nigerian 1918-1993) was a blacksmith like his ancestors before him . In 1961 he
+            began to create figures of animals out of recycled copper and aluminium and this work evolved into a unique
+            repousse technique on aluminium panels.
+            ​
+          </p>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modalplus1">
+        <img class="card-img-top" src="/Users/collins/Desktop/moringa/online-museum/images/kenyan-history/joseph-murumbi-collection/20-murumbi-tn.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="elevation">
+        </div>
+      </div>
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal28">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/ateloi.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="beheading">
+          <h5 class="card-title">Ateloi</h5>
+          <p>The Turkana and other Nilotic tribes in Kenya and Ethiopia make a hair ornament called Ateloi. It is woven
+            with grass with copper, brass or iron wires and attached to the clay headdresses that are either permanent
+            or removable. These ornaments are used for holding ostrich or other onrmanetal feathers for their
+            headdresses
+            ​
+          </p>
+        </div>
+      </div>
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal31">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/lion’s-mane-headdress.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="ecstasy">
+          <h5 class="card-title">lion’s-mane-headdress</h5>
+          <p>Lion’s mane headdress Alawaru proclaims that a Maasai has killed a lion during warrior-hood. For centuries
+            this was a necessary ritual but is no longer practiced
+            ​
+          </p>
+        </div>
+      </div>
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modalplus2">
+        <img class="card-img-top" src="/Users/collins/Desktop/moringa/online-museum/images/kenyan-history/joseph-murumbi-collection/34-murumbi-tn.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="elevation">
+          <h5 class="card-title">34-murumbi-tn</h5>
+          <p>A piece from Joseph Murumbi's collection. Unfortunately not much is known about the artist or the piece itself.
+          </p>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal29">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/dogon-iron-lamp.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="elevation">
+          <h5 class="card-title">The dogon-iron-lamp</h5>
+          <p>Dogon iron lamp from Mali
+          </p>
+        </div>
+      </div>
+      ​ ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal32">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/postage-stamps.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="carlo">
+          <h5 class="card-title">postage-stamps</h5>
+          ​
+          <p>Gold version of the Penny Black was the world’s first adhesive postage stamp used in a public postal
+            system. It was issued in Britain on 1 May 1840, for official use from 6 May of that year and features a
+            profile of the Queen Victoria.
+            ​
+          </p>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal33">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/spaghetti-press.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="carlo">
+          <h5 class="card-title">spaghetti-press</h5>
+          ​
+          <p>A spaghetti press made in Lamu. The dough put inside the cylinder and the wooden lever pressed down to
+            squeeze the spaghetti out of holes in the bottom of it.
+          </p>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal34">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/swahili-chair.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="carlo">
+          <h5 class="card-title">swahili-chair</h5>
+          ​
+          <p>A Swahili nobleman’s chair from Lamu inlaid with ebony and bone.</p>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal35">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/the-nairobi-gallery-entry-sculpture.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="carlo">
+          <h5 class="card-title">The-nairobi-gallery-entry-sculpture</h5>
+          ​
+          <p></p>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modalplus3">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/vessel-by-Magdalene-Odundo.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="elevation">
+          <h5 class="card-title">Vessel, by Magdalene Odundo OBE</h5>
+        </div>
+      </div>
+
+      <!-- <div class="card view overlay zoom" data-toggle="modal" data-target="#modal36">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/yoruba-carved-stool.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="carlo">
+          <h5 class="card-title">Yoruba-carved-stool</h5>
+          ​
+          <p>Yoruba carved wooden stool with 4 figures.</p>
+        </div>
+      </div> -->
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal37">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/zero-point.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="carlo">
+          <h5 class="card-title">zero point</h5>
+          <p>Lady Magdalene Odundo’s pot made of clay graces the “Zero Point” where all distances in Kenya is measured
+            from it is at the centre of Nairobi. She received an OBE from the Queen of England for her work.
+          </p>
+        </div>
+      </div>
+      ​
+      ​
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalplus1" tabindex="-1" role="dialog" aria-labelledby="modalplus1label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalplus1label">20-murumbi-tn</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>A piece from Joseph Murumbi's collection. Unfortunately not much is known about the artist or the piece itself.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalplus2" tabindex="-1" role="dialog" aria-labelledby="modalplus2label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalplus2label">34-murumbi-tn</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>A piece from Joseph Murumbi's collection. Unfortunately not much is known about the artist or the piece itself.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalplus3" tabindex="-1" role="dialog" aria-labelledby="modalplus3label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalplus3label">Vessel</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/RWCrGWVsP6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <br>
+          <p>Artist: Magdalene Odundo</p>
+          <p>A piece from Joseph Murumbi's gallery at the Nairobi Archives. Magdelene is a Kenyan-born British studio potter. Her best-known ceramics are hand built, using a coiling technique.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal27" tabindex="-1" role="dialog" aria-labelledby="modal27label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal27label"> Asiru-olatunde-osogbo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Asiru-olatunde-osogbo</p>
+          <p>Asiru Olatunde Osogbo (Nigerian 1918-1993) was a blacksmith like his ancestors before him . In 1961 he
+            began to create figures of animals out of recycled copper and aluminium and this work evolved into a unique
+            repousse technique on aluminium panels.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal28" tabindex="-1" role="dialog" aria-labelledby="modal28label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal28label">Ateloi</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Ateloi</p>
+          <p>The Turkana and other Nilotic tribes in Kenya and Ethiopia make a hair ornament called Ateloi. It is woven
+            with grass with copper, brass or iron wires and attached to the clay headdresses that are either permanent
+            or removable. These ornaments are used for holding ostrich or other onrmanetal feathers for their
+            headdresses
+            ​
+          </p>
+        </div>
+        ​
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal29" tabindex="-1" role="dialog" aria-labelledby="modal29label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal29label">Dogon-iron-lamp</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Dogon iron lamp</p>
+          <p>Dogon iron lamp from Mali</p>
+        </div>
+        ​
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal31" tabindex="-1" role="dialog" aria-labelledby="modal31label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal31label">Lion’s-mane-headdress </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Lion’s-mane-headdress</p>
+          <p class="card-text"></p>
+          <p>Lion’s mane headdress Alawaru proclaims that a Maasai has killed a lion during warrior-hood. For centuries
+            this was a necessary ritual but is no longer practiced.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal32" tabindex="-1" role="dialog" aria-labelledby="modal32label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal32label">Postage-stamps </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Postage-stamps </p>
+          <p>Gold version of the Penny Black was the world’s first adhesive postage stamp used in a public postal
+            system. It was issued in Britain on 1 May 1840, for official use from 6 May of that year and features a
+            profile of the Queen Victoria.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal33" tabindex="-1" role="dialog" aria-labelledby="modal33label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal33label">spaghetti-press</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">spaghetti-press </p>
+          <p>A spaghetti press made in Lamu. The dough put inside the cylinder and the wooden lever pressed down to
+            squeeze the spaghetti out of holes in the bottom of it.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal34" tabindex="-1" role="dialog" aria-labelledby="modal34label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal34label">Swahili-chair</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>A Swahili nobleman’s chair from Lamu inlaid with ebony and bone.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal35" tabindex="-1" role="dialog" aria-labelledby="modal35label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal35label">The-nairobi-gallery-entry-sculpture </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal36" tabindex="-1" role="dialog" aria-labelledby="modal36label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal36label">Yoruba-carved-stool</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Yoruba carved wooden stool with 4 figure.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal37" tabindex="-1" role="dialog" aria-labelledby="modal37label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal37label">Zero Point</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/ULaD7iFEpFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <br>
+          <p>Lady Magdalene Odundo’s pot made of clay graces the “Zero Point” where all distances in Kenya is measured
+            from it is at the centre of Nairobi. She received an OBE from the Queen of England for her work.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <h3 class="text-center">Contempray Kenyan art</h3>
+    <p class="text-center">Over the last few years, Kenya has cashed in on the “art boom” that Africa has been experiencing, especially in major cities like Lagos and Cape Town.
+      Young artistsin kenya, mostly in urban areas, are working in multiple mediums to explore issues related to their childhood memories, complex social interactions besides racial, ethnic, and religious identities.
+      These are some of the most popular contemporary artists in Kenya right now:
+    </p>
+  </div>
+  <br><br>
+  ​
+  <div class="sculpture container">
+    <div class="card-columns">
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal38">
+        <img class="card-img-top" src="images/contemporary-kenyan-art/ed-wainaina/ed-wainaina.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="allegory">
+          <h5 class="card-title">Artist/Illustrator: Ed-Wainaina</h5>
+          <p></p>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal39">
+        <img class="card-img-top" src="images/contemporary-kenyan-art/endo-patti/endo-patti.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="beheading">
+          <h5 class="card-title"> Artist: endo-patti</h5>
+          <p></p>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal40">
+        <img class="card-img-top" src="images/contemporary-kenyan-art/viva-kanana/beauty--and-the-beast.png" alt="Card image cap">
+        <div class="card-img-overlay" id="carlo">
+          <h5 class="card-title">Atrist: Viva Kanana</h5>
+          ​
+          <p>"Beauty in the beast"</p>
+        </div>
+      </div>
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal41">
+        <img class="card-img-top" src="images/contemporary-kenyan-art/macicio/macicio.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="elevation">
+          <h5 class="card-title">Artist: Osborne Macharia</h5>
+          <p>"MACICIO" The story revolves around the MAU MAU (Guerrilla Fighters during Kenya's struggle for Independence). Rumour has it that within the MAU MAu was a special unit of 5 opticians who hand crafted their own special spectacles that
+            they used to spot the enemy at night.
+          </p>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal42">
+        <img class="card-img-top" src="images/contemporary-kenyan-art/ondivo/ondivo.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="aeneas">
+          <h5 class="card-title">Artist: Ondivow</h5>
+          <p>it enatails slave trade</p>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal43">
+        <img class="card-img-top" src="images/contemporary-kenyan-art/the-three-musketeers/the-three-musketeers.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="ecstasy">
+          <h5 class="card-title">Artist: Michael Soi</h5>
+          <p>“The Three Musketeers”</p>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal44">
+        <img class="card-img-top" src="images/contemporary-kenyan-art/these-aliens-and-their-music/these-aliens-and-their-rapper-2016.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="carlo">
+          <h5 class="card-title">Artist: Dennis Muraguri</h5>
+          ​
+          <p>“These Aliens and their Music”</p>
+        </div>
+      </div>
+      ​
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal45">
+        <img class="card-img-top" src="images/contemporary-kenyan-art/wise-two/wise-two-urban-project-tunis.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="carlo">
+          <h5 class="card-title">Atrist: Wise Two</h5>
+          ​
+          <p>"Urban Project Tunis"</p>
+        </div>
+      </div>
+
+      <div class="card view overlay zoom" data-toggle="modal" data-target="#modal46">
+        <img class="card-img-top" src="./images/contemporary-kenyan-art/macicio/hafw/hafw.jpg" alt="Card image cap">
+        <div class="card-img-overlay" id="carlo">
+          <h5 class="card-title">Artist: Osborne Macharia</h5>
+          ​
+          <p>"Hafw"</p>
+        </div>
       </div>
 
     </div>
+  </div>
 
-    <div class="container">
-      <hr class="style-one">
-      <h2 class="text-center">KENYAN ART</h2>
-      <hr class="style-one">
+  <div class="modal fade" id="modal38" tabindex="-1" role="dialog" aria-labelledby="modal38label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal38label"> Asiru-olatunde-osogbo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Ed-wainaina</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
     </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal39" tabindex="-1" role="dialog" aria-labelledby="modal39label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal39label">Endo-patti</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Endo-patti</p>
 
+        </div>
+        ​
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal40" tabindex="-1" role="dialog" aria-labelledby="modal40label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal29label">Beauty and the beast</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Artist: Viva Kanana</p>
+          <p>Year: 2017</p>
+          <p>Price: Ksh. 30,000</p>
+        </div>
+        ​
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal41" tabindex="-1" role="dialog" aria-labelledby="modal41label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal41label">Macicio</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/kg0m3RB51UA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <br>
+          <p class="card-text">Artist: Obsborne Macharia</p>
+          <p>The story revolves around the MAU MAU (Guerrilla Fighters during Kenya's struggle for Independence). Rumour has it that within the MAU MAu was a special unit of 5 opticians who hand crafted their own special spectacles that they used
+            to spot the enemy at night.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal42" tabindex="-1" role="dialog" aria-labelledby="modal42label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal42label">Slavery</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/7-1p6hz_5f8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p class="card-text">Artist: Ondivow</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal43" tabindex="-1" role="dialog" aria-labelledby="modal43label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal43label">Three Musketeers</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/uVHILCb0eNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <br>
+          <p class="card-text">Artist: Michael Soi </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal44" tabindex="-1" role="dialog" aria-labelledby="modal44label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal44label">The aliens and their music</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/SOgojpCtEBY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <br>
+          <p class="card-text">Artist: Dennis Muraguri</p>
+          <p>Year: 2016</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal45" tabindex="-1" role="dialog" aria-labelledby="modal45label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal45label">Urban project</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Artist: Wise two</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="modal fade" id="modal46" tabindex="-1" role="dialog" aria-labelledby="modal46label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal46label">Hawf</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="video-wrapper">
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/_gxyTZHiGUs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <br>
+          <p>Artist: Osborne Macharia</p>
+          <p>Year: 2016</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ​
+  <div class="page-foot">
+    <footer class="page-footer font-small unique-color-dark pt-4">
+      <div class="container">
+        <ul class="list-unstyled list-inline text-center py-2">
+          <li class="list-inline-item">
+            <h5 class="mb-1">Subscribe to our newsletter</h5>
+          </li>
+          <li class="list-inline-item" id="footer-button">
+            <a href="#registerModal" data-toggle="modal" class="btn btn-outline-white">Subscribe!</a>
+          </li>
+        </ul>
+        <div class="footer-copyright text-center">
+          <p>
+            &copy; 2019 Copyright:
+            <a href="#brandName">The Online Museum</a>
+          </p>
+        </div>
+      </div>
+    </footer>
 
+  </div>
 
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <script src="js/script.js"></script>
+  <div class="container">
+    <div id="registerModal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="mx-auto font-weight-bold">Subscribe to our newsletter</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="card row">
+              <div class="card-body px-lg-5 pt-0 col-md-10 mx-auto">
+                <form class="text-center" id="myForm">
+                  <div class="form-row">
+                    <div class="col">
+                      <div class="md-form">
+                        <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                        <label for="materialRegisterFormFirstName">Name</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="md-form mt-0">
+                    <input type="email" id="materialRegisterFormEmail" class="form-control">
+                    <label for="materialRegisterFormEmail">E-mail</label>
+                  </div>
+                  <button class="btn btn-rounded btn-block waves-effect z-depth-0 col-md-3" type="submit" id="regButton" data-dismiss="modal">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  ​
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 

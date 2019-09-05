@@ -191,3 +191,40 @@ hr.style-one {
   background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
   background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
+
+.page-foot{
+  height: 100px;
+}
+
+.fluid{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-wrapper{
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.video-responsive{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+#regButton {
+  padding: 5px;
+  margin: auto;
+  background-color: #1c2331;
+  color: white;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: none;
+}
