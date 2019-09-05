@@ -1,3 +1,16 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+  .tl-content p , .f3{
+    display: none;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+  .tl-content , .tl-year {
+    display: none;
+  }
+  .tl-item: {
+    background: none;
+}
+}
 body{
   font-family: 'Manjari', sans-serif;
 }
@@ -47,7 +60,6 @@ i{
 
 
 body {
-  font-family: 'Source Sans Pro', Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.75;
 }
@@ -91,6 +103,13 @@ body {
 }
 .tl-item:hover {
   width: 30% !important;
+
+}
+.tl-year {
+  text-decoration: line-through;
+}
+.tl-item:hover .tl-year {
+  text-decoration: none;
 }
 .tl-item:hover:after {
   opacity: 0;
@@ -130,13 +149,16 @@ body {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  /* border-top: 1px solid #fff; */
+  /* border-bottom: 1px solid #fff; */
 }
 .tl-year p {
   font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.728rem;
-  line-height: 0;
+
+}
+.tl-year:hover p {
+  /* line-height: 0; */
 }
 .tl-bg {
   transform: translate3d(0, 0, 0);
@@ -150,6 +172,7 @@ body {
   transition: filter 0.5s ease;
   filter: grayscale(100%);
 }
+
 
 
 
