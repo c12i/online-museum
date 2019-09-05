@@ -1,24 +1,29 @@
-@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-  .tl-content p , .f3{
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  .tl-content p, .f3 {
     display: none;
   }
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
-  .tl-content , .tl-year {
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .tl-content, .tl-year {
     display: none;
   }
-  .tl-item: {
+  .tl-item {
     background: none;
+  }
 }
+
+html {
+  scroll-behavior: smooth;
 }
-body{
+
+body {
   font-family: 'Manjari', sans-serif;
 }
 
-#logo{
+#logo {
   font-family: 'DM Serif Display', serif;
   font-size: 30px;
-
 }
 
 .navbar-light {
@@ -28,6 +33,7 @@ body{
 .navShadow {
   box-shadow: 0px 15px 10px -15px #111;
 }
+
 .navbar-brand {
   color: black;
   padding-top: 15px;
@@ -53,23 +59,24 @@ nav li a:hover {
   text-decoration: none;
 }
 
-i{
+i {
   color: black;
 }
-
-
 
 body {
   font-size: 16px;
   line-height: 1.75;
 }
+
 #timeline {
   display: flex;
   background-color: #031625;
 }
+
 #timeline:hover .tl-item {
   width: 23.3333%;
 }
+
 .tl-item {
   transform: translate3d(0, 0, 0);
   position: relative;
@@ -80,6 +87,7 @@ body {
   overflow: hidden;
   transition: width 0.5s ease;
 }
+
 .tl-item:before, .tl-item:after {
   transform: translate3d(0, 0, 0);
   content: '';
@@ -89,11 +97,13 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .tl-item:after {
   background: rgba(3, 22, 37, 0.85);
   opacity: 1;
   transition: opacity 0.5s ease;
 }
+
 .tl-item:before {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 75%);
   z-index: 1;
@@ -101,32 +111,39 @@ body {
   transform: translate3d(0, 0, 0) translateY(50%);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
 .tl-item:hover {
   width: 30% !important;
-
 }
+
 .tl-year {
   text-decoration: line-through;
 }
+
 .tl-item:hover .tl-year {
   text-decoration: none;
 }
+
 .tl-item:hover:after {
   opacity: 0;
 }
+
 .tl-item:hover:before {
   opacity: 1;
   transform: translate3d(0, 0, 0) translateY(0);
   transition: opacity 1s ease, transform 1s ease 0.25s;
 }
+
 .tl-item:hover .tl-content {
   opacity: 1;
   transform: translateY(0);
   transition: all 0.75s ease 0.5s;
 }
+
 .tl-item:hover .tl-bg {
   filter: grayscale(0);
 }
+
 .tl-content {
   transform: translate3d(0, 0, 0) translateY(25px);
   position: relative;
@@ -136,6 +153,7 @@ body {
   top: 55%;
   opacity: 0;
 }
+
 .tl-content h1 {
   font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -143,6 +161,7 @@ body {
   font-size: 1.44rem;
   font-weight: normal;
 }
+
 .tl-year {
   position: absolute;
   top: 50%;
@@ -152,14 +171,16 @@ body {
   /* border-top: 1px solid #fff; */
   /* border-bottom: 1px solid #fff; */
 }
+
 .tl-year p {
   font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.728rem;
-
 }
+
 .tl-year:hover p {
   /* line-height: 0; */
 }
+
 .tl-bg {
   transform: translate3d(0, 0, 0);
   position: absolute;
@@ -173,10 +194,6 @@ body {
   filter: grayscale(100%);
 }
 
-
-
-
-
 .card {
   border-radius: 0;
   cursor: pointer;
@@ -184,25 +201,17 @@ body {
   border: none;
 }
 
-
 .card-img-overlay {
-    background-color: white;
-    opacity: 0.5;
+  background-color: white;
+  opacity: 0.5;
 }
 
-#assumption, #mona-lisa, #primavera, #sistine, #venus, #creation-of-adam, #judas, #judgement, #last-supper, #school-athens, #cristo, #david, #hercules, #madonna-of-bruges, #moses, #pieta, #slaves, #st-petronius, #judith{
+#assumption, #mona-lisa, #primavera, #sistine, #venus, #creation-of-adam, #judas, #judgement, #last-supper, #school-athens, #cristo, #david, #hercules, #madonna-of-bruges, #moses, #pieta, #slaves, #st-petronius, #judith {
   display: none;
 }
 
-
-#allegory,
-#beheading,
-#elevation,
-#aeneas,
-#ecstasy,
-#carlo,
-#graces {
-    display: none;
+#allegory, #beheading, #elevation, #aeneas, #ecstasy, #carlo, #graces {
+  display: none;
 }
 
 hr.style-one {
@@ -215,23 +224,23 @@ hr.style-one {
   background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
 
-.page-foot{
+.page-foot {
   height: 100px;
 }
 
-.fluid{
+.fluid {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.video-wrapper{
+.video-wrapper {
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
 }
 
-.video-responsive{
+.video-responsive {
   position: absolute;
   top: 0;
   left: 0;
