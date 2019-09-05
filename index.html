@@ -7,15 +7,20 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Online Museum</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-  <link
-    href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|DM+Serif+Display|Libre+Barcode+39|Manjari|Nixie+One|Raleway|UnifrakturCook:700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|DM+Serif+Display|Libre+Barcode+39|Manjari|Nixie+One|Raleway|UnifrakturCook:700&display=swap" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/mdb.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <div class="alert alert-secondary alert-dismissible fade show" role="alert" id="myAlert">
+    <p id="response"></p>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
   <div class="text-center" id="brandName">
     <a class="navbar-brand" href="#" id="logo">
       THE ONLINE MUSEUM
@@ -23,8 +28,7 @@
     </a>
   </div>
   <nav class="navbar navbar-expand-lg sticky-top navShadow">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pageNav" aria-controls="pageNav"
-      aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pageNav" aria-controls="pageNav" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="pageNav">
@@ -38,8 +42,7 @@
           <a class="nav-link" href="#subscribe">CONTACTS</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">COLLECTIONS</a>
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COLLECTIONS</a>
           <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#western">WESTERN ART</a>
             <a class="dropdown-item" href="#kenyan">KENYAN ART</a>
@@ -71,8 +74,7 @@
 
     <div class="tl-item">
 
-      <div class="tl-bg"
-        style="background-image: url(images/baroque/paintings/judith-beheading-holofernes/judith-beheading-holofernes.jpg)">
+      <div class="tl-bg" style="background-image: url(images/baroque/paintings/judith-beheading-holofernes/judith-beheading-holofernes.jpg)">
       </div>
 
       <div class="tl-year">
@@ -110,8 +112,7 @@
 
     <div class="tl-item">
 
-      <div class="tl-bg"
-        style="background-image: url(images/kenyan-history/joseph-murumbi-collection/20-murumbi-tn.jpg)"></div>
+      <div class="tl-bg" style="background-image: url(images/kenyan-history/joseph-murumbi-collection/20-murumbi-tn.jpg)"></div>
 
       <div class="tl-year">
         <p class="f2 heading--sanSerif">History</p>
@@ -153,9 +154,7 @@
   <div class="container">
     <div class="card-columns">
       <div class="card view overlay zoom" id="assumption-show" data-toggle="modal" data-target="#modal1">
-        <img class="card-img-top"
-          src="./images/renaissance/paintings/assumption-of-the-virgin/assumption-of-the-virgin.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/paintings/assumption-of-the-virgin/assumption-of-the-virgin.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="assumption">
 
         </div>
@@ -173,16 +172,14 @@
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal4">
-        <img class="card-img-top" src="./images/renaissance/paintings/sistine-madonna/sistine-madonna.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/paintings/sistine-madonna/sistine-madonna.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="sistine">
           <h5 class="card-title">Sistine Madonna</h5>
         </div>
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal5">
-        <img class="card-img-top" src="./images/renaissance/paintings/the-birth-of-venus/the-birth-of-venus.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/paintings/the-birth-of-venus/the-birth-of-venus.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="venus">
           <h5 class="card-title">The birth of Venus</h5>
           <p class="card-text">Artist:Sabdaro Botticelli</p>
@@ -198,8 +195,7 @@
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal6">
-        <img class="card-img-top" src="./images/renaissance/paintings/the-creation-of-adam/the-creation-of-adam.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/paintings/the-creation-of-adam/the-creation-of-adam.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="creation-of-adam">
           <h5 class="card-title">The creation of Adam</h5>
           <p class="card-text">Year: Michelangelo Buonarroti</p>
@@ -214,8 +210,7 @@
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal7">
-        <img class="card-img-top" src="./images/renaissance/paintings/the-kiss-of-judas/the-kiss-of-judas.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/paintings/the-kiss-of-judas/the-kiss-of-judas.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="judas">
           <h5 class="card-title">The Kiss of Judas</h5>
           <p class="card-text">Artist: Giotto di Bondone</p>
@@ -233,8 +228,7 @@
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal8">
-        <img class="card-img-top" src="./images/renaissance/paintings/the-last-judgement/the-last-judgement.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/paintings/the-last-judgement/the-last-judgement.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="judgement">
           <h5 class="card-title">The last Judgement</h5>
           <p class="card-text">Artist:Michelangelo Buonarroti</p>
@@ -250,8 +244,7 @@
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal9">
-        <img class="card-img-top" src="./images/renaissance/paintings/the-last-supper/the-last-supper.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/paintings/the-last-supper/the-last-supper.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="last-supper">
           <h5 class="card-title">The Last Supper</h5>
           <p class="card-text">Artist: Leonardo Da Vinci</p>
@@ -266,8 +259,7 @@
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal10">
-        <img class="card-img-top" src="./images/renaissance/paintings/the-school-of-athens/the-school-of-athens.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/paintings/the-school-of-athens/the-school-of-athens.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="school-athens">
           <h5 class="card-title">The school of Athens</h5>
           <p class="card-text">Artist: Raphael</p>
@@ -284,8 +276,7 @@
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal11">
-        <img class="card-img-top" src="./images/renaissance/sculptures/cristo-della-minerva/cristo-della-minerva.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/sculptures/cristo-della-minerva/cristo-della-minerva.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="cristo">
           <h5 class="card-title">Cristo-della-minerva</h5>
           <p class="card-text">Artist: Michelangelo </p>
@@ -324,16 +315,14 @@
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal13">
-        <img class="card-img-top" src="./images/renaissance/sculptures/hercules-and-cacus/hercules-and-cacus.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/sculptures/hercules-and-cacus/hercules-and-cacus.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="hercules">
           <p class="card-text">Artist: Bartolomeo Bandinelli</p>
         </div>
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal14">
-        <img class="card-img-top" src="./images/renaissance/sculptures/madonna-of-bruges/madonna-of-bruges.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/sculptures/madonna-of-bruges/madonna-of-bruges.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="madonna-of-bruges">
           <h5 class="card-title"></h5>
         </div>
@@ -361,16 +350,14 @@
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal18">
-        <img class="card-img-top" src="./images/renaissance/sculptures/st-petronius/st-petronius.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/sculptures/st-petronius/st-petronius.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="st-petronius">
           <h5 class="card-"></h5>
         </div>
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal19">
-        <img class="card-img-top" src="./images/renaissance/sculptures/judith-and-holofernes/judith-and-holofernes.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/renaissance/sculptures/judith-and-holofernes/judith-and-holofernes.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="judith">
           <h5 class="card-title">judith-and-holofernes</h5>
         </div>
@@ -390,9 +377,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/2MzPOrcsWB0"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/2MzPOrcsWB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p class="card-text">Artist: Titian </p>
           <p class="card-text">Year: 1518</p>
@@ -512,9 +497,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/Ng0qn-rsdm4"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/Ng0qn-rsdm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p class="card-text">Artist: Sabdaro Botticelli </p>
           <p class="card-text">Year: 1486</p>
@@ -544,9 +527,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/QVK04ORmKrE"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/QVK04ORmKrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p class="card-text">Artist: Michelangelo Buonarroti </p>
           <p class="card-text">Year: 1512</p>
@@ -837,9 +818,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/ihlqGCfD5_g"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/ihlqGCfD5_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p class="card-text">Artist: Michelangelo</p>
           <p class="card-text">Subject: Lamentation of Christ, Blessed Virgin Mary</p>
@@ -956,44 +935,35 @@
       to the revered Renaissance movement. Till the end of the 19th century and occasionally in the present time, some
       people use this
       word in its original sense as an insult towards anything they find grotesque or abnormal. The Baroque Style also
-      resulted in some majestic landmarks in modern Europe architecture...<a
-        href="https://www.identifythisart.com/art-movements-styles/pre-modern-art/baroque-art-movement/"
-        target="_blank">read more</a>
+      resulted in some majestic landmarks in modern Europe architecture...<a href="https://www.identifythisart.com/art-movements-styles/pre-modern-art/baroque-art-movement/" target="_blank">read more</a>
     </p>
   </div>
 
   <div class="sculpture container">
     <div class="card-columns">
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal20">
-        <img class="card-img-top" src="./images/baroque/paintings/allegory-of-war/allegory-of-war.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/baroque/paintings/allegory-of-war/allegory-of-war.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="allegory">
           <h5 class="card-title">Allegory of war</h5>
         </div>
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal21">
-        <img class="card-img-top"
-          src="./images/baroque/paintings/judith-beheading-holofernes/judith-beheading-holofernes.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/baroque/paintings/judith-beheading-holofernes/judith-beheading-holofernes.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="beheading">
           <h5 class="card-title"></h5>
         </div>
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal22">
-        <img class="card-img-top"
-          src="./images/baroque/paintings/the-elevation-of-the-cross/the-elevation-of-the-cross.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/baroque/paintings/the-elevation-of-the-cross/the-elevation-of-the-cross.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="elevation">
           <h5 class="card-title"></h5>
         </div>
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal23">
-        <img class="card-img-top"
-          src="./images/baroque/sculptures/aeneas-anchises-and-ascanius/aeneas-anchises-and-ascanius.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/baroque/sculptures/aeneas-anchises-and-ascanius/aeneas-anchises-and-ascanius.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="aeneas">
           <h5 class="card-title"></h5>
 
@@ -1001,25 +971,21 @@
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal24">
-        <img class="card-img-top" src="./images/baroque/sculptures/ecstasy-of-saint-teresa/ecstasy-of-saint-teresa.jpeg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/baroque/sculptures/ecstasy-of-saint-teresa/ecstasy-of-saint-teresa.jpeg" alt="Card image cap">
         <div class="card-img-overlay" id="ecstasy">
           <h5 class="card-title"></h5>
         </div>
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal25">
-        <img class="card-img-top"
-          src="./images/baroque/sculptures/san-carlo-alle-quattro-fontane/san-carlo-alle-quattro-fontane.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/baroque/sculptures/san-carlo-alle-quattro-fontane/san-carlo-alle-quattro-fontane.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="carlo">
           <h5 class="card-title"></h5>
         </div>
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal26">
-        <img class="card-img-top" src="./images/baroque/sculptures/the-three-graces/the-three-graces.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/baroque/sculptures/the-three-graces/the-three-graces.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="graces">
           <h5 class="card-"></h5>
         </div>
@@ -1065,9 +1031,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/l9XQKyG7mv8"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/l9XQKyG7mv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p class="card-text">Artist: Artmesia Gentileschi</p>
           <p class="card-text">Genres: History painting</p>
@@ -1198,9 +1162,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/e3eEbi7yaEY"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/e3eEbi7yaEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p class="card-text">Artist:Antonio Canova</p>
           <p class="card-text">Subject: Charites </p>
@@ -1240,8 +1202,7 @@
   <div class="sculpture container">
     <div class="card-columns">
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal27">
-        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/asiru-olatunde-osogbo.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/asiru-olatunde-osogbo.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="allegory">
           <h5 class="card-title">Asiru-olatunde-osogbo</h5>
           <p>Asiru Olatunde Osogbo (Nigerian 1918-1993) was a blacksmith like his ancestors before him . In 1961 he
@@ -1253,8 +1214,7 @@
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modalplus1">
-        <img class="card-img-top" src="./images/kenyan-history/joseph-murumbi-collection/20-murumbi-tn.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/kenyan-history/joseph-murumbi-collection/20-murumbi-tn.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="elevation">
         </div>
       </div>
@@ -1272,8 +1232,7 @@
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal31">
-        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/lion’s-mane-headdress.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/lion’s-mane-headdress.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="ecstasy">
           <h5 class="card-title">lion’s-mane-headdress</h5>
           <p>Lion’s mane headdress Alawaru proclaims that a Maasai has killed a lion during warrior-hood. For centuries
@@ -1283,8 +1242,7 @@
       </div>
 
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modalplus2">
-        <img class="card-img-top" src="./images/kenyan-history/joseph-murumbi-collection/34-murumbi-tn.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="./images/kenyan-history/joseph-murumbi-collection/34-murumbi-tn.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="elevation">
           <h5 class="card-title">34-murumbi-tn</h5>
           <p>A piece from Joseph Murumbi's collection. Unfortunately not much is known about the artist or the piece
@@ -1294,8 +1252,7 @@
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal29">
-        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/dogon-iron-lamp.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/dogon-iron-lamp.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="elevation">
           <h5 class="card-title">The dogon-iron-lamp</h5>
           <p>Dogon iron lamp from Mali
@@ -1304,8 +1261,7 @@
       </div>
       ​ ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal32">
-        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/postage-stamps.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/postage-stamps.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="carlo">
           <h5 class="card-title">postage-stamps</h5>
           ​
@@ -1318,8 +1274,7 @@
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal33">
-        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/spaghetti-press.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/spaghetti-press.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="carlo">
           <h5 class="card-title">spaghetti-press</h5>
           ​
@@ -1330,8 +1285,7 @@
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal34">
-        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/swahili-chair.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/swahili-chair.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="carlo">
           <h5 class="card-title">swahili-chair</h5>
           ​
@@ -1340,9 +1294,7 @@
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal35">
-        <img class="card-img-top"
-          src="images/kenyan-history/joseph-murumbi-collection/the-nairobi-gallery-entry-sculpture.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/the-nairobi-gallery-entry-sculpture.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="carlo">
           <h5 class="card-title">The-nairobi-gallery-entry-sculpture</h5>
           ​
@@ -1351,8 +1303,7 @@
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modalplus3">
-        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/vessel-by-Magdalene-Odundo.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/vessel-by-Magdalene-Odundo.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="elevation">
           <h5 class="card-title">Vessel, by Magdalene Odundo OBE</h5>
         </div>
@@ -1367,8 +1318,7 @@
         </div>
       </div> -->
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal37">
-        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/zero-point.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/kenyan-history/joseph-murumbi-collection/zero-point.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="carlo">
           <h5 class="card-title">zero point</h5>
           <p>Lady Magdalene Odundo’s pot made of clay graces the “Zero Point” where all distances in Kenya is measured
@@ -1380,8 +1330,7 @@
     </div>
   </div>
 
-  <div class="modal fade" id="modalplus1" tabindex="-1" role="dialog" aria-labelledby="modalplus1label"
-    aria-hidden="true">
+  <div class="modal fade" id="modalplus1" tabindex="-1" role="dialog" aria-labelledby="modalplus1label" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -1402,8 +1351,7 @@
     </div>
   </div>
 
-  <div class="modal fade" id="modalplus2" tabindex="-1" role="dialog" aria-labelledby="modalplus2label"
-    aria-hidden="true">
+  <div class="modal fade" id="modalplus2" tabindex="-1" role="dialog" aria-labelledby="modalplus2label" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -1424,8 +1372,7 @@
     </div>
   </div>
 
-  <div class="modal fade" id="modalplus3" tabindex="-1" role="dialog" aria-labelledby="modalplus3label"
-    aria-hidden="true">
+  <div class="modal fade" id="modalplus3" tabindex="-1" role="dialog" aria-labelledby="modalplus3label" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -1436,9 +1383,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/RWCrGWVsP6U"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/RWCrGWVsP6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br>
           <p>Artist: Magdalene Odundo</p>
@@ -1658,9 +1603,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/ULaD7iFEpFo"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/ULaD7iFEpFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br>
           <p>Lady Magdalene Odundo’s pot made of clay graces the “Zero Point” where all distances in Kenya is measured
@@ -1704,8 +1647,7 @@
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal40">
-        <img class="card-img-top" src="images/contemporary-kenyan-art/viva-kanana/beauty--and-the-beast.png"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/contemporary-kenyan-art/viva-kanana/beauty--and-the-beast.png" alt="Card image cap">
         <div class="card-img-overlay" id="carlo">
           <h5 class="card-title">Atrist: Viva Kanana</h5>
           ​
@@ -1734,8 +1676,7 @@
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal43">
-        <img class="card-img-top" src="images/contemporary-kenyan-art/the-three-musketeers/the-three-musketeers.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/contemporary-kenyan-art/the-three-musketeers/the-three-musketeers.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="ecstasy">
           <h5 class="card-title">Artist: Michael Soi</h5>
           <p>“The Three Musketeers”</p>
@@ -1743,9 +1684,7 @@
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal44">
-        <img class="card-img-top"
-          src="images/contemporary-kenyan-art/these-aliens-and-their-music/these-aliens-and-their-rapper-2016.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/contemporary-kenyan-art/these-aliens-and-their-music/these-aliens-and-their-rapper-2016.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="carlo">
           <h5 class="card-title">Artist: Dennis Muraguri</h5>
           ​
@@ -1754,8 +1693,7 @@
       </div>
       ​
       <div class="card view overlay zoom" data-toggle="modal" data-target="#modal45">
-        <img class="card-img-top" src="images/contemporary-kenyan-art/wise-two/wise-two-urban-project-tunis.jpg"
-          alt="Card image cap">
+        <img class="card-img-top" src="images/contemporary-kenyan-art/wise-two/wise-two-urban-project-tunis.jpg" alt="Card image cap">
         <div class="card-img-overlay" id="carlo">
           <h5 class="card-title">Atrist: Wise Two</h5>
           ​
@@ -1848,9 +1786,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/kg0m3RB51UA"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/kg0m3RB51UA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br>
           <p class="card-text">Artist: Osborne Macharia</p>
@@ -1877,9 +1813,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/7-1p6hz_5f8"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/7-1p6hz_5f8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p class="card-text">Artist: Ondivow</p>
         </div>
@@ -1901,9 +1835,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/uVHILCb0eNk"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/uVHILCb0eNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br>
           <p class="card-text">Artist: Michael Soi </p>
@@ -1926,9 +1858,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/SOgojpCtEBY"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/SOgojpCtEBY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br>
           <p class="card-text">Artist: Dennis Muraguri</p>
@@ -1971,9 +1901,7 @@
         </div>
         <div class="modal-body">
           <div class="video-wrapper">
-            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/_gxyTZHiGUs"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            <iframe class="video-responsive" width="468" height="300" src="https://www.youtube.com/embed/_gxyTZHiGUs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br>
           <p>Artist: Osborne Macharia</p>
@@ -2009,7 +1937,7 @@
   </div>
 
   <div class="container">
-    <div id="registerModal" class="modal fade">
+    <div id="registerModal" class="modal">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -2023,17 +1951,16 @@
                   <div class="form-row">
                     <div class="col">
                       <div class="md-form">
-                        <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                        <input type="text" id="name" class="form-control" required>
                         <label for="materialRegisterFormFirstName">Name</label>
                       </div>
                     </div>
                   </div>
                   <div class="md-form mt-0">
-                    <input type="email" id="materialRegisterFormEmail" class="form-control">
+                    <input type="email" id="email" class="form-control" required>
                     <label for="materialRegisterFormEmail">E-mail</label>
                   </div>
-                  <button class="btn btn-rounded btn-block waves-effect z-depth-0 col-md-3" type="submit" id="regButton"
-                    data-dismiss="modal">Submit</button>
+                  <button class="btn btn-rounded btn-block waves-effect z-depth-0 col-md-3" type="submit" id="regButton">Submit</button>
                 </form>
               </div>
             </div>
@@ -2042,7 +1969,6 @@
       </div>
     </div>
   </div>
-
   ​
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>

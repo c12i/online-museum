@@ -260,3 +260,15 @@ hr.style-one {
 .card {
   box-shadow: none;
 }
+
+.alert{
+  text-align: center;
+  margin-bottom: auto;
+  display: none;
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index:9999;
+  border-radius:0px;
+}
