@@ -1540,7 +1540,7 @@
             <h5 class="mb-1">Subscribe to our newsletter</h5>
           </li>
           <li class="list-inline-item" id="footer-button">
-            <a href="#!" class="btn btn-outline-white">Subscribe!</a>
+            <a href="#registerModal" data-toggle="modal" class="btn btn-outline-white">Subscribe!</a>
           </li>
         </ul>
         <div class="footer-copyright text-center">
@@ -1552,6 +1552,41 @@
       </div>
     </footer>
 
+  </div>
+
+  <div class="container">
+    <div id="registerModal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="mx-auto font-weight-bold">Subscribe to our newsletter</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="card row">
+              <div class="card-body px-lg-5 pt-0 col-md-10 mx-auto">
+                <form class="text-center" id="myForm">
+                  <div class="form-row">
+                    <div class="col">
+                      <div class="md-form">
+                        <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                        <label for="materialRegisterFormFirstName">Name</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="md-form mt-0">
+                    <input type="email" id="materialRegisterFormEmail" class="form-control">
+                    <label for="materialRegisterFormEmail">E-mail</label>
+                  </div>
+                  <button class="btn btn-rounded btn-block waves-effect z-depth-0 col-md-3"
+                    type="submit" id="regButton" data-dismiss="modal">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   ​

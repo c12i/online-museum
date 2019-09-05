@@ -105,3 +105,15 @@ hr.style-one {
   height: 100%;
   border: 0;
 }
+
+#regButton {
+  padding: 5px;
+  margin: auto;
+  background-color: #1c2331;
+  color: white;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: none;
+}
