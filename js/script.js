@@ -23,6 +23,6 @@ $("#myForm").submit(function(event) {
   $('.modal-backdrop').remove();
   $("#myAlert").show();
 
-  $("#name").val();
-  $("#email").val();
+  $("#name").val("");
+  $("#email").val("");
 });

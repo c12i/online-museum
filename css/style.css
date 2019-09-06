@@ -8,6 +8,7 @@
   .tl-content, .tl-year {
     display: none;
   }
+
   .tl-item {
     background: none;
   }
@@ -24,6 +25,17 @@ body {
 #logo {
   font-family: 'DM Serif Display', serif;
   font-size: 30px;
+}
+
+#logo img {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#logo:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .navbar-light {
@@ -261,14 +273,14 @@ hr.style-one {
   box-shadow: none;
 }
 
-.alert{
+.alert {
   text-align: center;
   margin-bottom: auto;
   display: none;
-  position:fixed;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index:9999;
-  border-radius:0px;
+  z-index: 9999;
+  border-radius: 0px;
 }
